@@ -14,6 +14,10 @@ public class DemoApplication {
     public String sayHello() {
         return "Hello mother fucker";
     }
+    @GetMapping("/me")
+    public String thisMe() {
+        return "add me endpoint";
+    }
 //    echo "# CICDTesting" >> README.md
 //    git init
 //    git add README.md
