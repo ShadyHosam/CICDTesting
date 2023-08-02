@@ -32,7 +32,7 @@ jobs:
       - name: Build & push Docker image
         with:
           image: shadyhossam/springbootdeploy
-          tags:   latest
+          tags: latest
           registry: docker
           dockerfile: Dockerfile.ci
           username: ${{ secrets.DOCKER_USERNAME }}
